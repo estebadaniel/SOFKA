@@ -1,6 +1,0 @@
-Conclusiones - Exercise 2
--------------------------
-- Se automatizaron las operaciones solicitadas usando Cypress y cy.request para interacción con la API.
-- Se utilizaron aserciones sobre códigos HTTP y sobre el cuerpo de respuesta para validar las operaciones.
-- La API pública puede devolver diferentes códigos para casos límite (p.ej. 400 vs 404); por eso los tests negativos aceptan ambas posibilidades y validan la forma de la respuesta.
-- Recomiendo ejecutar los tests varias veces o limpiar pruebas antiguas si el entorno público tiene datos persistentes inesperados.
