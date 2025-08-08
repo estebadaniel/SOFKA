@@ -1,0 +1,6 @@
+Conclusiones - Exercise 1
+-------------------------
+- El flujo E2E automatizado cubre agregar dos productos, visualizar el carrito y finalizar la compra.
+- El sitio puede mostrar textos y alertas que cambian; por eso se usan coincidencias parciales (regex) para validar alertas y el modal de confirmación.
+- Se recomienda ejecutar las pruebas en modo "headed" la primera vez para verificar visualmente acciones que interactúan con alertas modales.
+- Si el DOM del sitio cambia (selectores o layout), será necesario actualizar selectores en el test.

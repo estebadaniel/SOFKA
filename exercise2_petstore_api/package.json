@@ -1,0 +1,13 @@
+{
+  "name": "cypress-exercises",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "cypress run",
+    "open": "cypress open",
+    "cy:run": "cypress run --headed"
+  },
+  "devDependencies": {
+    "cypress": "^12.0.0"
+  }
+}
